@@ -1,0 +1,29 @@
+2020/04/09 14:33:54 [notice] 30367#30367: signal process started
+2020/04/09 14:33:54 [notice] 30369#30369: signal process started
+2020/04/09 14:42:06 [emerg] 30855#30855: open() "/home/jonie/w/EFTR/nginx_auth_test/EFTR.ForeFront/conf/auth.js" failed (2: No such file or directory) in /home/jonie/w/EFTR/nginx_auth_test/EFTR.ForeFront/conf/nginx.conf:19
+2020/04/09 14:42:21 [notice] 30883#30883: signal process started
+2020/04/09 14:42:21 [notice] 30885#30885: signal process started
+2020/04/09 14:42:22 [emerg] 30895#30895: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:22 [emerg] 30895#30895: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:22 [emerg] 30895#30895: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:26 [notice] 30899#30899: signal process started
+2020/04/09 14:42:26 [notice] 30901#30901: signal process started
+2020/04/09 14:42:29 [emerg] 30911#30911: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:29 [emerg] 30911#30911: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:54 [emerg] 30968#30968: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:42:54 [emerg] 30968#30968: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:43:01 [emerg] 30980#30980: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:43:01 [emerg] 30980#30980: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:43:01 [emerg] 30980#30980: bind() to 0.0.0.0:5001 failed (98: Address already in use)
+2020/04/09 14:45:08 [error] 31131#31131: *1 auth request unexpected status: 500 while sending to client, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:5000"
+2020/04/09 14:46:05 [error] 31432#31432: *1 auth request unexpected status: 500 while sending to client, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:5000"
+2020/04/09 14:46:19 [error] 31432#31432: *3 auth request unexpected status: 500 while sending to client, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:5000"
+2020/04/09 14:53:49 [error] 32120#32120: *1 js exception: ReferenceError: "res" is not defined in auth.js:10
+    at native (native)
+    at validate (auth.js:1)
+    at main (native)
+, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", subrequest: "/javascript-auth", host: "localhost:5000"
+2020/04/09 14:53:49 [error] 32120#32120: *1 auth request unexpected status: 500, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:5000"
+2020/04/09 15:00:38 [emerg] 32750#32750: unknown "auth_userid" variable
+2020/04/09 15:01:23 [emerg] 382#382: invalid variable name "auth_userId" in /home/jonie/w/EFTR/nginx_auth_test/EFTR.ForeFront/conf/nginx.conf:44
+2020/04/09 15:02:32 [emerg] 582#582: unknown "auth_userid" variable
